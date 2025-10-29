@@ -1,0 +1,12 @@
+App(
+    appid="dodge_game",
+    name="Dodge",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="dodge_app",
+    requires=[
+        "furi",
+        "gui",
+    ],
+    stack_size=2 * 1024,
+)
+
